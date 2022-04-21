@@ -1,3 +1,5 @@
+<img width="375" alt="plantshoppr logo" src="https://user-images.githubusercontent.com/76077598/164548636-b3d50454-370e-49fb-8293-a5ff3ce20ebf.png">
+
 # plantshoppr
 Multiverse Plantshoppr
 
