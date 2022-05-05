@@ -1,0 +1,19 @@
+.plants-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 24px;
+}
+.plants {
+  width: 200px;
+  height: 200px;
+}
+.plants img {
+  width: 100px;
+  height: 100px;
+}
+
+@media (max-width: 700px) {
+  .plants-container {
+    flex-direction: column;
+  }
+}
