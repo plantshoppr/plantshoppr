@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { AllPlants } from "./components/allplants/AllPlants";
+import { AllPlants } from "./Components/allplants/AllPlants";
 
 function App() {
   return (
