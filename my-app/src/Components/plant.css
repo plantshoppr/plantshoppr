@@ -1,0 +1,32 @@
+.plant_page {
+  padding: 24px;
+  background: #f9f9f7;
+  color: #6c7851;
+}
+
+.plant_page-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.plant-img {
+    width: 400px;
+    height: 350px;
+}
+
+button {
+    background-color: #91957f;
+}
+
+@media (max-width: 750px) {
+    .plant_page-container{
+        flex-direction: column;
+    }
+
+    .plant-img {
+       
+        width: 300px;
+        height: 300px;
+    }
+    
+}
