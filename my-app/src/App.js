@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import { AllPlants } from "./components/allplants/AllPlants";
+import { AllPlants } from "./Components/allplants/AllPlants";
+import { Navbar } from "./Components/navbar"
 
 function App() {
   return (
     <div className="App">
-      <h1>Plant</h1>
+      <Navbar />
+      <AllPlants />
     </div>
   );
 }

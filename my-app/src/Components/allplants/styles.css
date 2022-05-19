@@ -1,11 +1,13 @@
 .plants-container {
   display: flex;
+  background-color: #f9f9f7;
   justify-content: space-around;
   margin: 24px;
 }
 .plants {
   width: 200px;
   height: 200px;
+  background-color: #f9f9f7;
 }
 .plants img {
   width: 100px;
