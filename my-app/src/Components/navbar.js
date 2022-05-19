@@ -1,18 +1,21 @@
 import './navbar.css';
 
 export const Navbar = () => {
-  return (<div class="navbar">
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">All Plants</a>
-      <a href="#">Cart</a>
+  return (
+  <div class="navbar">
+    <div>
+    <img src={require('./logo.png')} alt= "logo" class="logo" />
     </div>
-  </div>
+<ul>
+  <li><a class="active" href="home">Home</a></li>
+  <li><a href="all-plants">All Plants</a></li>
+  <li><a href="contact">Contact</a></li>
+  <li><a href="about">About</a></li>
+</ul>
+
+<div>
+    <img src={require('./number.jpg')} alt= "number" class="number" />
+</div>
 </div>
 );
 };
