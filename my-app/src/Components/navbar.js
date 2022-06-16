@@ -22,7 +22,7 @@ export const Navbar = () => {
     <div className="dropdown-content">
       <a href="/">Home</a>
       <a href="/all-plants">All Plants</a>
-      <a href="/contacts">Contact</a>
+      <a href="/contact">Contact</a>
       <a href="/about">About</a>
     </div>
   </div>
