@@ -16,7 +16,7 @@ const AllPlants = () => {
                   <p>{data.name}</p>
                   <p>{data.price}</p>
                 </div>
-                <p>Likes: {data.likes}</p>
+                <p className="likes">Likes: {data.likes}</p>
               </Link>
             </div>
           );
