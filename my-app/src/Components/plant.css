@@ -30,3 +30,9 @@ button {
     }
     
 }
+
+
+.plant_page-paragraph {
+    padding: 0 15px;
+    max-width: 400px;
+}

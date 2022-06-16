@@ -1,5 +1,6 @@
 .plants-container {
   display: flex;
+  background-color: #f9f9f7;
   justify-content: space-around;
   margin: 24px;
   padding: 24px;

@@ -1,0 +1,22 @@
+.homepage {
+  margin: 30px auto;
+  padding: 30px;
+}
+.homepage-content {
+  background: url("https://i.guim.co.uk/img/media/4e5bf146c4c83a2b5950b7af2a3432cd43abc0e5/0_205_5472_3283/master/5472.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=4d5e161c4b004131da2dcff7f85a250c")
+    no-repeat fixed center;
+  width: 900px;
+  height: 500px;
+  padding: 30px;
+  margin: 0 auto;
+}
+.content {
+  width: 300px;
+  margin-top: 200px;
+  color: #fcba03;
+}
+.content button {
+  background-color: #03fca1;
+  padding: 10px;
+  border-radius: 10%;
+}
