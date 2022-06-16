@@ -11,8 +11,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Router>
+      <Navbar />
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/all-plants" element={<AllPlants />} />
