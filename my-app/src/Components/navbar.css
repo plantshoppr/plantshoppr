@@ -29,11 +29,11 @@ body {
   }
   
   li a:hover:not(.active) {
-    background-color: #6c785136;
+    background-color: #6c7851;
   }
   
   .active {
-    background-color: #6c785136;
+    background-color: #6c7851;
   }
 
   .logo {
