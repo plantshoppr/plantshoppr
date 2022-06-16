@@ -8,15 +8,24 @@
   width: 900px;
   height: 500px;
   padding: 30px;
-  margin: 0 auto;
+  margin: 120px auto;
 }
 .content {
   width: 300px;
   margin-top: 200px;
-  color: #fcba03;
+  color: #112b02;
+  font-size: 23px;
 }
 .content button {
   background-color: #03fca1;
   padding: 10px;
   border-radius: 10%;
+  margin-top: 52px;
+  width: inherit;
+}
+
+@media (max-width: 700px) {
+  .homepage-content {
+    width: 283px;
+  }
 }

@@ -2,13 +2,10 @@ import React from "react";
 import "./styles.css";
 import { plantsdata } from "../plantdata";
 import { Link } from "react-router-dom";
-import { Navbar } from "../navbar";
 
 const AllPlants = () => {
   return (
     <div>
-      <Navbar />
-
       <div className="plants-container">
         {plantsdata.map((data) => {
           return (
