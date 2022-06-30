@@ -1,6 +1,7 @@
 import "./plant.css";
 import { plantsdata } from "./plantdata";
 import { useParams } from "react-router-dom";
+import { useState } from "react";
 
 export const Plant = () => {
   const params = useParams();
@@ -9,6 +10,8 @@ export const Plant = () => {
     console.log(plantObj.id, params.id);
     return plantObj.id === parseInt(params.id);
   });
+
+  const [countUp, setCountUp] = useState(0);
 
   return (
     <div className="plant_page">
@@ -23,9 +26,9 @@ export const Plant = () => {
               size="300"
             />
           </div>
-          <p>{plant.likes} likes</p>
+          <p>{countUp} likes</p>
           <div className="button-div">
-            <button> Like</button>
+            <button onClick={() => setCountUp(countUp + 1)}>Like</button>
             <button>Add to Cart</button>
           </div>
         </div>
