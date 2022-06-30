@@ -2,33 +2,34 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f9f9f7;
   }
+
+  a:-webkit-any-link {
+    text-decoration: none;
+    color: #5c6643;
+  }
   
   .navbar {
     text-align: center;
   }
 
-  ul {
-    list-style-type: none;
+  #desktopnav {
     margin: 0;
-    padding: 0;
+    padding: 15px;
     overflow: hidden;
     background-color: #f9f9f7;
     display: inline-block;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: #5c6643;
-    text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
   }
   
-  li a:hover, .active {
+  .active {
+    display: inline-block;
+    color: #5c6643;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+  }
+  
+  NavLink:hover, .active {
     background-color: #6c785125;
   }
 
@@ -53,30 +54,22 @@ body {
   }
   
   @media (max-width: 700px) {
-    .desktopnav {
+    #desktopnav {
      display: none;
     }
 
     .mobile-navbar {
-      /* overflow: hidden; */
+      overflow: hidden;
       background-color: #f9f9f9;
       font-family: Arial;
       width: 60px;
       display: block;
-      margin: 50px auto;
+      margin: auto;
       padding: 8px 10px;
       transition: all 0.5s;
      -webkit-transition: all 0.5s;
     }
-  
-  .mobile-navbar div {
-      height: 5px;
-      background: #fff;
-      margin: 7px 0px 7px 0px;
-      border-radius: 25px;
-      transition: all 0.5s;
-     -webkit-transition: all 0.5s;
-  }
+
     
   .mobile-navbar a {
       float: left;
@@ -87,42 +80,21 @@ body {
       text-decoration: none;
     }
   
-  .two { 
-      width: 35px; 
-  }
-  
-  .three { 
-      width: 50px;
-  }
-  
-  .mobile-navbar:hover div { 
-      width: 60px;
-  }
     
   .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-    
-  .dropdown .dropbtn {
       font-size: 16px;
       border: none;
       outline: none;
       color: #5c6643;
-      padding: 14px 16px;
+      padding: 15px 15px;
       background-color: inherit;
       font-family: inherit;
       margin: 0; 
     }
     
-    
-  .mobile-navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: #6c785125;
-    }
-    
-    
   .dropdown-content {
-      position: absolute;
+      position:absolute;
+      margin: auto;
       background-color: #f9f9f9;
       min-width: 160px;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -137,14 +109,5 @@ body {
       display: block;
       text-align: left;
     }
-    
-    
-  .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-    
-   
-  .dropdown:hover .dropdown-content {
-      display: block;
-    }
+  
   }
