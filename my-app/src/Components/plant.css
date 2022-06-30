@@ -7,7 +7,6 @@
 .plant_page-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 150px 24px 24px;
 }
 
 .plant-img {
