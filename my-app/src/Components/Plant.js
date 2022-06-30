@@ -11,7 +11,7 @@ export const Plant = () => {
     return plantObj.id === parseInt(params.id);
   });
 
-  const [countUp, setCountUp] = useState(0);
+  const [countUp, setCountUp] = useState(plant.likes);
 
   return (
     <div className="plant_page">
@@ -26,10 +26,20 @@ export const Plant = () => {
               size="300"
             />
           </div>
-          <p>{plant.likes + countUp} likes</p>
+          <p>{countUp} likes</p>
           <div className="button-div">
-            <button onClick={() => setCountUp(countUp + 1)}>Like</button>
-            <button>Add to Cart</button>
+            <button
+              className="individual-plant-button"
+              onClick={() => setCountUp(countUp + 1)}
+            >
+              Like
+            </button>
+            <button
+              className="individual-plant-button"
+              onClick={() => alert("Coming soon! (⊙ ﹏ ⊙)")}
+            >
+              Add to Cart
+            </button>
           </div>
         </div>
         <div className="plant_page-section-2">

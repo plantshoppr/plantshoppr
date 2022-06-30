@@ -7,32 +7,47 @@
 .plant_page-container {
   display: flex;
   justify-content: space-evenly;
+  margin: 150px 24px 24px;
 }
 
 .plant-img {
-    width: 400px;
-    height: 350px;
+  width: 400px;
+  height: 350px;
+}
+.individual-plant-button {
+  background-color: #e06436;
+  color: #fff;
+  border-radius: 24px;
+  margin: 15px;
+  min-width: 70px;
 }
 
-button {
-    background-color: #91957f;
+.plant_page-section-2 {
+  background-color: rgb(75, 106, 73);
+  max-width: 400px;
+  max-height: 350px;
+  margin-top: 80px;
+  color: whitesmoke;
+}
+.plant_page-paragraph {
+  padding: 40px;
 }
 
 @media (max-width: 750px) {
-    .plant_page-container{
-        flex-direction: column;
-    }
+  .plant_page-container {
+    flex-direction: column;
+    margin: 150px 24px 24px;
+  }
 
-    .plant-img {
-       
-        width: 300px;
-        height: 300px;
-    }
-    
-}
-
-
-.plant_page-paragraph {
+  .plant-img {
+    width: 300px;
+    height: 300px;
+  }
+  .plant_page-section-2 {
+    margin-top: 50px;
+  }
+  .plant_page-paragraph {
     padding: 0 15px;
-    max-width: 400px;
+    max-width: 300px;
+  }
 }
