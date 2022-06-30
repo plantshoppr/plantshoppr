@@ -2,7 +2,7 @@ import "./styles.css";
 
 export const Contact = () => {
   return (
-    <div className="about-container">
+    <div className="contact-container">
       <h3>Get help from Plantshoppr experts</h3>
       <h4>Contact:</h4>
       <p>US: 1800-SOW-SEED</p>
