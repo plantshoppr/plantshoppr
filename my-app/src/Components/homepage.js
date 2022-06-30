@@ -7,7 +7,9 @@ export const Homepage = () => {
         <div className="content">
           <h4>Welcome to plantShopper!</h4>
           <p>We have colorful and edible plants picked right just for you.</p>
-          <button>Shop All Plants</button>
+          <a href="/all-plants">
+            <button>Shop All Plants</button>
+          </a>
         </div>
       </div>
     </div>
