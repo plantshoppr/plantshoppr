@@ -26,7 +26,7 @@ export const Plant = () => {
               size="300"
             />
           </div>
-          <p>{countUp} likes</p>
+          <p>{plant.likes + countUp} likes</p>
           <div className="button-div">
             <button onClick={() => setCountUp(countUp + 1)}>Like</button>
             <button>Add to Cart</button>
